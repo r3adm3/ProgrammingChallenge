@@ -7,7 +7,7 @@ class HelloCsharp
 			string Name;
 			
 			Console.WriteLine("Name?");
-			Name = System.Console.ReadLine ();
+			Name = Console.ReadLine ();
             Console.WriteLine ("Hello from C# " + Name);
        }
 }
